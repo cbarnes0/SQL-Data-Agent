@@ -1,0 +1,23 @@
+# Node
+node_modules/
+mcp-server/dist/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+
+# BIRD data is large — gitignore contents, keep scripts + the committed eval subset
+agent/data/*
+!agent/data/download_bird.py
+!agent/data/explore_bird.py
+!agent/data/eval_subset.json
+
+# Run logs (JSONL can get large)
+agent/results/*
+!agent/results/.gitkeep

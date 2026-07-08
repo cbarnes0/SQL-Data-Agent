@@ -1,0 +1,11 @@
+[project]
+name = "sql-data-agent-eval"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=0.116.0",
+    "pandas>=3.0.3",
+    "pydantic>=2.13.4",
+    "pytest>=9.1.1",
+    "python-dotenv>=1.2.2",
+]
